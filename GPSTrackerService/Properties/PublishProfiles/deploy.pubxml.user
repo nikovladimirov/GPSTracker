@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\GPSTrackerService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AsyncIO.dll">
+      <publishTime>07/18/2016 11:48:54</publishTime>
+    </File>
+    <File Include="bin/GPSTrackerService.dll">
+      <publishTime>09/22/2019 22:24:23</publishTime>
+    </File>
+    <File Include="bin/GPSTrackerService.pdb">
+      <publishTime>09/22/2019 22:24:23</publishTime>
+    </File>
+    <File Include="bin/GPSTrackerServiceAPI.dll">
+      <publishTime>09/22/2019 21:27:54</publishTime>
+    </File>
+    <File Include="bin/GPSTrackerServiceAPI.pdb">
+      <publishTime>09/22/2019 21:27:54</publishTime>
+    </File>
+    <File Include="bin/NLog.config">
+      <publishTime>02/19/2019 12:03:33</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>04/15/2017 13:12:28</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>08/04/2017 23:55:10</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll.config">
+      <publishTime>08/04/2017 23:55:12</publishTime>
+    </File>
+    <File Include="NLog.config">
+      <publishTime>02/19/2019 12:03:33</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/19/2019 12:03:33</publishTime>
+    </File>
+    <File Include="Status.aspx">
+      <publishTime>02/19/2019 12:03:33</publishTime>
+    </File>
+    <File Include="TrackerService.svc">
+      <publishTime>02/19/2019 12:03:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/07/2019 20:02:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

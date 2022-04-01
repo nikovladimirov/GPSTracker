@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\GPSWebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/GPSTrackerServiceAPI.dll">
+      <publishTime>09/22/2019 21:27:54</publishTime>
+    </File>
+    <File Include="bin/GPSTrackerServiceAPI.pdb">
+      <publishTime>09/22/2019 21:27:54</publishTime>
+    </File>
+    <File Include="bin/GPSWebSite.dll">
+      <publishTime>09/22/2019 21:28:11</publishTime>
+    </File>
+    <File Include="bin/GPSWebSite.pdb">
+      <publishTime>09/22/2019 21:28:11</publishTime>
+    </File>
+    <File Include="Data.aspx">
+      <publishTime>07/01/2019 20:48:13</publishTime>
+    </File>
+    <File Include="res/Handler.ashx">
+      <publishTime>02/19/2019 12:03:37</publishTime>
+    </File>
+    <File Include="res/start.png">
+      <publishTime>02/19/2019 12:03:37</publishTime>
+    </File>
+    <File Include="res/stop.png">
+      <publishTime>02/19/2019 12:03:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/22/2019 21:28:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
